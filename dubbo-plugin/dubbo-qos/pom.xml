@@ -30,7 +30,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
 
     <dependencies>

@@ -28,7 +28,7 @@
     <name>${project.artifactId}</name>
     <description>The Apollo implementation of the configcenter api</description>
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
         <apollo_mock_server_version>2.0.1</apollo_mock_server_version>
     </properties>
 

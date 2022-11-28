@@ -29,7 +29,7 @@
     <description>Aggregate jacoco report</description>
 
     <properties>
-        <skip_maven_deploy>true</skip_maven_deploy>
+        <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
 
     <dependencies>

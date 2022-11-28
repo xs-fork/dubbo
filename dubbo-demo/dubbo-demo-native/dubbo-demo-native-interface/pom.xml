@@ -29,6 +29,6 @@
     <artifactId>dubbo-demo-native-interface</artifactId>
 
     <properties>
-        <skip_maven_deploy>true</skip_maven_deploy>
+        <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
 </project>

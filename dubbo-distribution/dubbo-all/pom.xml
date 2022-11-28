@@ -25,10 +25,10 @@
     </parent>
     <artifactId>dubbo</artifactId>
     <packaging>jar</packaging>
-    <name>dubbo</name>
+    <name>Dubbo All</name>
     <description>The all in one project of dubbo</description>
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
     <dependencies>
         <!-- cluster -->
@@ -428,19 +428,19 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit_jupiter_version}</version>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
-            <version>${junit_jupiter_version}</version>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
-            <version>${cglib_version}</version>
+            <version>${cglib.version}</version>
             <scope>test</scope>
             <optional>true</optional>
         </dependency>

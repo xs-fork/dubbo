@@ -29,7 +29,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
 
     <dependencies>

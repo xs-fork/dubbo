@@ -118,7 +118,7 @@
         <jetty_version>9.4.43.v20210629</jetty_version>
         <validation_new_version>3.0.1</validation_new_version>
         <validation_version>1.1.0.Final</validation_version>
-        <hibernate_validator_version>5.4.3.Final</hibernate_validator_version>
+        <hibernate-validator.version>5.4.3.Final</hibernate-validator.version>
         <hibernate_validator_new_version>7.0.4.Final</hibernate_validator_new_version>
         <jel_version>3.0.1-b08</jel_version>
         <jcache_version>1.0.0</jcache_version>
@@ -413,7 +413,7 @@
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator</artifactId>
-                <version>${hibernate_validator_version}</version>
+                <version>${hibernate-validator.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.glassfish</groupId>

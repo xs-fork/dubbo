@@ -31,7 +31,7 @@
     <artifactId>dubbo-demo-api-provider</artifactId>
 
     <properties>
-        <skip_maven_deploy>true</skip_maven_deploy>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
     </properties>
 

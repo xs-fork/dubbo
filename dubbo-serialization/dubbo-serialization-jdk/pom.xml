@@ -28,7 +28,7 @@ limitations under the License.
     <name>${project.artifactId}</name>
     <description>The jdk serialization module of dubbo project</description>
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
     <dependencies>
         <dependency>

@@ -28,7 +28,7 @@
     <artifactId>dubbo-test-spring3.2</artifactId>
 
     <properties>
-        <skip_maven_deploy>true</skip_maven_deploy>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <spring_version>3.2.18.RELEASE</spring_version>
     </properties>
 

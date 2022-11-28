@@ -26,13 +26,13 @@
     <name>${project.artifactId}</name>
     <description>The cache module of dubbo project</description>
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-rpc-api</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.cache</groupId>
@@ -42,7 +42,7 @@
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
             <scope>test</scope>
-            <version>${hazelcast_version}</version>
+            <version>${hazelcast.version}</version>
         </dependency>
     </dependencies>
 </project>

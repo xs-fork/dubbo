@@ -28,7 +28,7 @@
     <name>${project.artifactId}</name>
     <description>The zookeeper curator5 remoting module of dubbo project</description>
     <properties>
-        <skip_maven_deploy>false</skip_maven_deploy>
+        <maven.deploy.skip>false</maven.deploy.skip>
         <curator5_version>5.1.0</curator5_version>
         <zookeeper_version>3.7.0</zookeeper_version>
     </properties>

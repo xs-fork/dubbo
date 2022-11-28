@@ -28,7 +28,7 @@
     <artifactId>dubbo-test-spring</artifactId>
 
     <properties>
-        <skip_maven_deploy>true</skip_maven_deploy>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
         <spring_version>3.2.18.RELEASE</spring_version>
         <!--<spring_version>4.0.9.RELEASE</spring_version>-->
@@ -136,25 +136,25 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit_jupiter_version}</version>
+            <version>${junit-jupiter.version}</version>
             <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
-            <version>${junit_jupiter_version}</version>
+            <version>${junit-jupiter.version}</version>
             <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
-            <version>${hamcrest_version}</version>
+            <version>${hamcrest.version}</version>
             <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit_jupiter_version}</version>
+            <version>${junit-jupiter.version}</version>
 <!--            <scope>test</scope>-->
         </dependency>
         <dependency>
@@ -172,7 +172,7 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
-            <version>${cglib_version}</version>
+            <version>${cglib.version}</version>
             <!--<scope>test</scope>-->
         </dependency>
 
